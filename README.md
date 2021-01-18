@@ -1,14 +1,15 @@
-# Travel App Project
-### A Udacity Front End Web Developer Project
+# A base functioning webpack server setup with express dev server
 - - -
 
 ## Usage
-A travel app that obtains a desired trip location & date from the user, and displays weather and an image of the location using information obtained from external APIs.
+Based on an prior project. Use this to get a jump start on A base functioning webpack server setup with express dev server.
 
-## Project Overview
+Original use: A travel app that obtains a desired trip location & date from the user, and displays weather and an image of the location using information obtained from external APIs.
+
+## Original Project Overview
 The project will include a simple form where you enter the location you are traveling to and the date you are leaving. If the trip is within a week, you will get the current weather forecast. If the trip is in the future, you will get a predicted forecast. The OpenWeather API is fantastic but it doesn’t let you get future data for free and it’s not that flexible with what information you enter; we are going to use the Weatherbit API for you to see how another API accomplishes the same goals. Weatherbit API has one problem, it only takes in coordinates for weather data -- it’s that specific. So, we’ll need to get those coordinates from the Geonames API. Once we have all of this data, we’ll want to display an image of the location entered; for this, we will be using the Pixabay API.
 
-## Project Goals Summary
+## Original Project Goals Summary
 Create clean and appealing HTML/CSS. Targeting the DOM, working with objects, and retrieving data from 3 APIs in which one of those is reliant on another to work. Done in a Webpack environment, using an express server, and wrapped up with service workers.
 
 ## Project Goals
